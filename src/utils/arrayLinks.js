@@ -15,7 +15,7 @@ export const linksRedes = [
   },
   {
     id: 2,
-    name: "GitHub",
+    name: "Facebook",
     link: "https://www.facebook.com",
     icon: "bi bi-facebook",
   }
