@@ -1,12 +1,20 @@
 # React + Vite
+## NODO TECNOLÓGICO - Diplmatura en Diseño Web - Módulo 4 - REACT 2025
+### Barolin Debora Ines 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PROYECTO 
+* Inicio de proyecto con vite: 
+npm create vite@latest
 
-Currently, two official plugins are available:
+TAILWIND CSS
+* Instalación de tailwind css : 
+npm install tailwind-css
+* Configuracion en vite.config.js 
+agregar tailwindcss() en el arreglo de plugins
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+BOOSTRAP 
+* Instalacion de boostrap: 
+npm install bootstrap-icons
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MOTION
+ npm install framer-motion
