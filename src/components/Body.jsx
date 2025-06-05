@@ -10,14 +10,14 @@ import Tarjeta from './Tarjeta';
 
 
 
+
 function Body() {
   const tarjetas=[
     {id: 1, imagen: nuecesSueltas, texto: 'Nueces por KG', descripcion: 'Paquetes por 1/4KG - 1/2KG - 1KG'},
     {id: 2, imagen: confitadas, texto: 'Nueces Confitadas', descripcion: 'Deliciosas nueces rellenas con dulce de leche cubiertas de azúcar.'},
-    {id: 3, imagen: loloNuez, texto: 'Ordenar', descripcion: 'Quiero mis nueces!!'}
-  ]
+    {id: 3, imagen: loloNuez, texto: 'Ordenar', descripcion:  <a href="https://wa.me/5493834235811" target="_blank" rel="noopener noreferrer">Quiero mis nueces!</a> },]//link de whatsapp para ordenar
   return (
-    <body>
+   
       <div className="w-full h-screen relative overflow-hidden">
         {/* Fondo escritorio */}
         <div
@@ -37,11 +37,12 @@ function Body() {
               imagen={tarjeta.imagen}
               texto={tarjeta.texto}
               descripcion={tarjeta.descripcion}
+             
             />
           ))}
         </div>
       </div>
-    </body>
+    
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tarjeta({ imagen, texto, descripcion }) {
   return (
-    <div className='bg-[#3b2f2f]/20 backdrop-blur-md rounded-xl shadow-lg p-6 w-72 text-center text-white hover:scale-105 transition-transform'>
+    <div className='bg-[#3b2f2f]/20 backdrop-blur-md rounded-xl shadow-lg p-6 w-72 text-center  text-white hover:scale-105 transition-transform'>
       <>
         <img
           src={imagen}
