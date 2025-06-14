@@ -8,8 +8,11 @@ npm create vite@latest
 
 TAILWIND CSS
 * Instalación de tailwind css : 
+
 npm install tailwindcss
+
 * Configuracion en vite.config.js 
+
 agregar tailwindcss() en el arreglo de plugins
 
 BOOSTRAP 
